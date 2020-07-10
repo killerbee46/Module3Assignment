@@ -1,1 +1,53 @@
 
+body{
+	font-size: 16px;
+	font-family: 'Times New Roman', sans-serif;
+}
+.main-container{
+	background-color: #cce6ff;
+}
+/* HEADER */
+
+#header-nav a{
+	text-decoration: none;
+}
+h1{
+	color: #000099;
+}
+#header-nav{
+	position: relative;
+	background-color: #33ff33;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+#header-nav h1:hover{
+	color: #004d99;
+}
+
+#collapsed-nav{
+	background-color: aqua;
+	font-size: 20px;
+	width: auto;
+	margin-top: 0;
+}
+.navbar-toggler{
+	border: 2px solid black;
+}
+#navbar-toggler:hover{
+	background-color: black;
+}
+div>h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div.content{
+	position: relative;
+	background-color: gray;
+	font-size: 20px;
+	width: auto;
+	padding: 20px; 
+}
+div.row{
+	margin: auto;
+}
